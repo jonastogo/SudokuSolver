@@ -456,7 +456,7 @@ public class Gui extends JFrame {
 		TF9_9.setText("0");
 		TF9_9.setColumns(10);
 
-		JButton Lösen = new JButton("L\u00F6sen");
+		JButton Lösen = new JButton("Lösen");
 		GroupLayout gl_panel = new GroupLayout(panel);
 		gl_panel.setHorizontalGroup(gl_panel
 				.createParallelGroup(Alignment.LEADING)
@@ -1599,102 +1599,8 @@ public class Gui extends JFrame {
 				 Arraygetter.raster[8][5] = Integer.parseInt(TF6_9.getText());
 				 Arraygetter.raster[8][6] = Integer.parseInt(TF7_9.getText());
 				 Arraygetter.raster[8][7] = Integer.parseInt(TF8_9.getText());
-				 Arraygetter.raster[8][8] = Integer.parseInt(TF9_9.getText());
-				 
-
-				/* ValueArray.getInstance().getValueMap()[0][0] = getInt(TF1_1);
-				ValueArray.getInstance().getValueMap()[0][1] = getInt(TF1_2);
-				ValueArray.getInstance().getValueMap()[0][2] = getInt(TF1_3);
-				ValueArray.getInstance().getValueMap()[0][3] = getInt(TF1_4);
-				ValueArray.getInstance().getValueMap()[0][4] = getInt(TF1_5);
-				ValueArray.getInstance().getValueMap()[0][5] = getInt(TF1_6);
-				ValueArray.getInstance().getValueMap()[0][6] = getInt(TF1_7);
-				ValueArray.getInstance().getValueMap()[0][7] = getInt(TF1_8);
-				ValueArray.getInstance().getValueMap()[0][8] = getInt(TF1_9);
-				
-				ValueArray.getInstance().getValueMap()[1][0] = getInt(TF2_1);
-				ValueArray.getInstance().getValueMap()[1][1] = getInt(TF2_2);
-				ValueArray.getInstance().getValueMap()[1][2] = getInt(TF2_3);
-				ValueArray.getInstance().getValueMap()[1][3] = getInt(TF2_4);
-				ValueArray.getInstance().getValueMap()[1][4] = getInt(TF2_5);
-				ValueArray.getInstance().getValueMap()[1][5] = getInt(TF2_6);
-				ValueArray.getInstance().getValueMap()[1][6] = getInt(TF2_7);
-				ValueArray.getInstance().getValueMap()[1][7] = getInt(TF2_8);
-				ValueArray.getInstance().getValueMap()[1][8] = getInt(TF2_9);
-				
-				ValueArray.getInstance().getValueMap()[2][0] = getInt(TF3_1);
-				ValueArray.getInstance().getValueMap()[2][1] = getInt(TF3_2);
-				ValueArray.getInstance().getValueMap()[2][2] = getInt(TF3_3);
-				ValueArray.getInstance().getValueMap()[2][3] = getInt(TF3_4);
-				ValueArray.getInstance().getValueMap()[2][4] = getInt(TF3_5);
-				ValueArray.getInstance().getValueMap()[2][5] = getInt(TF3_6);
-				ValueArray.getInstance().getValueMap()[2][6] = getInt(TF3_7);
-				ValueArray.getInstance().getValueMap()[2][7] = getInt(TF3_8);
-				ValueArray.getInstance().getValueMap()[2][8] = getInt(TF3_9);
-				
-				ValueArray.getInstance().getValueMap()[3][0] = getInt(TF4_1);
-				ValueArray.getInstance().getValueMap()[3][1] = getInt(TF4_2);
-				ValueArray.getInstance().getValueMap()[3][2] = getInt(TF4_3);
-				ValueArray.getInstance().getValueMap()[3][3] = getInt(TF4_4);
-				ValueArray.getInstance().getValueMap()[3][4] = getInt(TF4_5);
-				ValueArray.getInstance().getValueMap()[3][5] = getInt(TF4_6);
-				ValueArray.getInstance().getValueMap()[3][6] = getInt(TF4_7);
-				ValueArray.getInstance().getValueMap()[3][7] = getInt(TF4_8);
-				ValueArray.getInstance().getValueMap()[3][8] = getInt(TF4_9);
-				
-				ValueArray.getInstance().getValueMap()[4][0] = getInt(TF5_1);
-				ValueArray.getInstance().getValueMap()[4][1] = getInt(TF5_2);
-				ValueArray.getInstance().getValueMap()[4][2] = getInt(TF5_3);
-				ValueArray.getInstance().getValueMap()[4][3] = getInt(TF5_4);
-				ValueArray.getInstance().getValueMap()[4][4] = getInt(TF5_5);
-				ValueArray.getInstance().getValueMap()[4][5] = getInt(TF5_6);
-				ValueArray.getInstance().getValueMap()[4][6] = getInt(TF5_7);
-				ValueArray.getInstance().getValueMap()[4][7] = getInt(TF5_8);
-				ValueArray.getInstance().getValueMap()[4][8] = getInt(TF5_9);
-				
-				ValueArray.getInstance().getValueMap()[5][0] = getInt(TF6_1);
-				ValueArray.getInstance().getValueMap()[5][1] = getInt(TF6_2);
-				ValueArray.getInstance().getValueMap()[5][2] = getInt(TF6_3);
-				ValueArray.getInstance().getValueMap()[5][3] = getInt(TF6_4);
-				ValueArray.getInstance().getValueMap()[5][4] = getInt(TF6_5);
-				ValueArray.getInstance().getValueMap()[5][5] = getInt(TF6_6);
-				ValueArray.getInstance().getValueMap()[5][6] = getInt(TF6_7);
-				ValueArray.getInstance().getValueMap()[5][7] = getInt(TF6_8);
-				ValueArray.getInstance().getValueMap()[5][8] = getInt(TF6_9);
-				
-				ValueArray.getInstance().getValueMap()[6][0] = getInt(TF7_1);
-				ValueArray.getInstance().getValueMap()[6][1] = getInt(TF7_2);
-				ValueArray.getInstance().getValueMap()[6][2] = getInt(TF7_3);
-				ValueArray.getInstance().getValueMap()[6][3] = getInt(TF7_4);
-				ValueArray.getInstance().getValueMap()[6][4] = getInt(TF7_5);
-				ValueArray.getInstance().getValueMap()[6][5] = getInt(TF7_6);
-				ValueArray.getInstance().getValueMap()[6][6] = getInt(TF7_7);
-				ValueArray.getInstance().getValueMap()[6][7] = getInt(TF7_8);
-				ValueArray.getInstance().getValueMap()[6][8] = getInt(TF7_9);
-				
-				ValueArray.getInstance().getValueMap()[7][0] = getInt(TF8_1);
-				ValueArray.getInstance().getValueMap()[7][1] = getInt(TF8_2);
-				ValueArray.getInstance().getValueMap()[7][2] = getInt(TF8_3);
-				ValueArray.getInstance().getValueMap()[7][3] = getInt(TF8_4);
-				ValueArray.getInstance().getValueMap()[7][4] = getInt(TF8_5);
-				ValueArray.getInstance().getValueMap()[7][5] = getInt(TF8_6);
-				ValueArray.getInstance().getValueMap()[7][6] = getInt(TF8_7);
-				ValueArray.getInstance().getValueMap()[7][7] = getInt(TF8_8);
-				ValueArray.getInstance().getValueMap()[7][8] = getInt(TF8_9);
-				
-				ValueArray.getInstance().getValueMap()[8][0] = getInt(TF9_1);
-				ValueArray.getInstance().getValueMap()[8][1] = getInt(TF9_2);
-				ValueArray.getInstance().getValueMap()[8][2] = getInt(TF9_3);
-				ValueArray.getInstance().getValueMap()[8][3] = getInt(TF9_4);
-				ValueArray.getInstance().getValueMap()[8][4] = getInt(TF9_5);
-				ValueArray.getInstance().getValueMap()[8][5] = getInt(TF9_6);
-				ValueArray.getInstance().getValueMap()[8][6] = getInt(TF9_7);
-				ValueArray.getInstance().getValueMap()[8][7] = getInt(TF9_8);
-				ValueArray.getInstance().getValueMap()[8][8] = getInt(TF9_9); */
-				
-				Arraygetter.printRaster();
-				Arraygetter.löser();
-				ValueArray.getInstance().printRaster();
+				 Arraygetter.raster[8][8] = Integer.parseInt(TF9_9.getText());	
+				 Arraygetter.löser();
 			}
 		});
 	}
